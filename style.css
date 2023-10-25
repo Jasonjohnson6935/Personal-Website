@@ -1,0 +1,74 @@
+/*General adjustments*/
+
+h1 {
+    color: blue;
+}
+
+h2 {
+    background-color: grey;
+}
+.Name {
+    text-align: center;
+}
+
+.Guide {
+    text-align: center;
+}
+
+html {
+    background-color: bisque;
+}
+
+
+/* Main Page*/
+
+.Quote {
+    text-align: center;
+    padding-left: 100px;
+}
+
+.Headshot {
+    align-items: center;
+    padding-left: 400px;
+    width: 600px;
+    height: 600px;
+}
+/*About me adjustments*/
+
+.Aboutme-description {
+    text-align: center;
+}
+
+.aboutme-sub-title {
+    text-align: center;
+}
+
+.Football {
+    align-items: center;
+    padding-left: 400px;
+    width: 600px;
+    height: 600px;  
+}
+.row {
+    display: flex;
+  }
+  
+  .column {
+    flex: 33.33%;
+    padding: 5px;
+  }
+
+.Family {
+    align-items: center;
+    padding-left: 400px;
+    width: 600px;
+    height: 600px; 
+}
+/*Portfolio adjustment*/
+
+.Project-sub-title {
+    text-align: center;
+}
+
+/*Home adjustment*/
+
