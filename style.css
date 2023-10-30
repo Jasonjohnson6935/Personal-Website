@@ -5,56 +5,56 @@ h1 {
 }
 
 h2 {
-    background-color: grey;
-    text-align: center;
+    background-color: grey; /* Background color */
+    text-align: center; /* Text-align */ 
 }
 .Name {
-    text-align: center;
+    text-align: center; /* Text-align */ 
 }
 
 .Guide {
-    text-align: center;
+    text-align: center; /* Text-align */ 
 }
 
 html {
-    background-color: bisque;
+    background-color: bisque; /* Background colo r*/
 }
 
 @media (max-width: 5000px) {
     .section {
-      margin: 0 auto !important;
-      padding: 0 !important;
+      margin: 0 auto !important; /* Margin */
+      padding: 0 !important; /* Some padding */
   
     }
 
 /* Main Page*/
 
 .Quote {
-    text-align: center;
-    padding-left: 100px;
+    text-align: center; /* Text-align */ 
+    padding-left: 100px; /* Some padding */
 }
 
 .Headshot {
     align-items: center;
-    padding-left: 400px;
-    width: 600px;
-    height: 600px;
+    padding-left: 400px; /* Some padding */
+    width: 600px; /* Full width */
+    height: 600px; /* Full Height */
 }
-/*About me adjustments*/
+/* About me adjustments */
 
 .Aboutme-description {
-    text-align: center;
+    text-align: center; /* Text-align */ 
 }
 
 .aboutme-sub-title {
-    text-align: center;
+    text-align: center; /* Text-align */ 
 }
 
 .Football {
     align-items: center;
-    padding-left: 400px;
-    width: 600px;
-    height: 600px;  
+    padding-left: 400px; /* Some padding */ 
+    width: 600px; /* Full width */
+    height: 600px;  /* Full Height */
 }
 .row {
     display: flex;
@@ -62,14 +62,14 @@ html {
   
 .column {
     flex: 33.33%;
-    padding: 5px;
+    padding: 5px; /* Some padding */ 
   }
 
 .Family {
     align-items: center;
-    padding-left: 400px;
-    width: 600px;
-    height: 600px; 
+    padding-left: 400px; /* Some padding */ 
+    width: 600px; /* Full width */
+    height: 600px; /* Full Height */
 }
 
 
@@ -93,7 +93,7 @@ input[type=text], select, textarea {
   
   /* Style the submit button with a specific background color etc */
   input[type=submit] {
-    background-color: #0d0e0e;
+    background-color: #0d0e0e;/* background color*/
     color: bisque;
     padding: 12px 20px;
     border: none;
@@ -103,7 +103,7 @@ input[type=text], select, textarea {
   
   /* When moving the mouse over the submit button, add a darker green color */
   input[type=submit]:hover {
-    background-color: #45a049;
+    background-color: #45a049;/* background color*/
   }
   
   /* Add a background color and some padding around the form */
