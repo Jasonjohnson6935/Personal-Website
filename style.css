@@ -28,12 +28,17 @@ html {
     }
 }
 
+section > div {
+    font-style: italic;
+      }
+
 /* Main Page*/
 
 .Quote {
     text-align: center; /* Text-align */ 
     padding-left: 100px; /* Some padding */
 }
+
 
 .Headshot {
     align-items: center;
@@ -71,6 +76,27 @@ html {
     padding-left: 400px; /* Some padding */ 
     width: 600px; /* Full width */
     height: 600px; /* Full Height */
+}
+
+article {
+    display: grid;
+    grid-template: 
+    "one two three" auto;
+    gap: 1cm;
+    align-items: center;
+    padding-left: 3cm;
+}
+
+.grid_one {
+    grid-area: one;
+}
+
+.grid_two {
+    grid-area: two;
+}
+
+.grid_three {
+    grid-area: three;
 }
 
 
