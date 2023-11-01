@@ -20,7 +20,7 @@ html {
     background-color: bisque; /* Background colo r*/
 }
 
-@media (max-width: 5000px) {
+@media (max-width: 1000px) {
     .section {
       margin: 0 auto !important; /* Margin */
       padding: 0 !important; /* Some padding */
